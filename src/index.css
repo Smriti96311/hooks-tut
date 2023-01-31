@@ -1,0 +1,27 @@
+.hook-example-container {
+ height : 300px;
+ border : 2px solid black;
+ margin : 20px;
+ padding: 20px;
+}
+
+#useState-container {
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.themebox {
+  height: 270px;
+}
+
+.dark {
+  background-color: #3f3d3d;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
