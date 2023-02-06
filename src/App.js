@@ -20,14 +20,14 @@ function App() {
     <div className="App">
       {/* <div className="hook-example-container"><ExmapleUseState/></div> */}
       {/* <div className="hook-example-container"><ExmapleUseEffect/></div> */}
-      {/* <div className="hook-example-container"><ExampleUseImperative/></div> */}
+      <div className="hook-example-container"><ExampleUseImperative/></div>
       {/* <div className="hook-example-container"><ExampleUseId/></div> */}
       {/* <ExampleDeferredValue/> */}
       {/* <ExampleUseTransition/> */}
       {/* <div className="hook-example-container"><ExampleUseDebugValue/></div> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className="hook-example-container"><ExampleUseContext /></div>
-      </ThemeProvider>
+      </ThemeProvider> */}
       {/* <div className="hook-example-container"><ExampleUseMemo/></div> */}
       {/* <div className="hook-example-container"><ExampleUseCallback/></div> */}
       {/* <div className="hook-example-container"><ExampleUseSyncExternalStore/></div> */}

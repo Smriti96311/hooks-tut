@@ -7,7 +7,7 @@ export default function ExampleUseLayoutEffect() {
   const btnRef = useRef();
   const tooltipRef = useRef();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (btnRef.current == null || tooltipRef.current == null) return;
 
     const { left, top, bottom, height } =
