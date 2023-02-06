@@ -34,3 +34,16 @@
   padding: 10px;
   margin: 4px;
 }
+
+.option {
+  height : 50px;
+  width: 90px;
+  background-color: #93BFCF;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #3f3d3d;
+  border-radius: 5px;
+  cursor: pointer;
+}

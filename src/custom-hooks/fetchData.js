@@ -15,7 +15,7 @@ export const useFetch = (url) => {
         }
     }, [url]);
 
-    useDebugValue(data);
+    useDebugValue({'myData' : data});
 
     return data;
 }
